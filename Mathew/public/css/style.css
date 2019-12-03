@@ -1,0 +1,52 @@
+img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* .text {
+  position: absolute;
+  text-align: center;
+} */
+h1 {
+  color: #284779;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+/* .about {
+  background-color: black;
+} */
+.hireButton {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #4AAAE1;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 80px;
+}
+
+.fillGreeen {
+  background-color: #8ECDC2;
+}
+
+.fillPink {
+  background-color: #E28AA0;
+}
+
+.fillBlue {
+  background-color: #8EC9F5;
+}
+
+.whiteText {
+  color: white;
+  font-size: 13px;
+}
