@@ -1,3 +1,7 @@
+section {
+  padding-bottom: 120px;
+}
+
 img {
   display: flex;
   justify-content: center;
@@ -15,8 +19,6 @@ img {
 h1 {
   color: #284779;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 30px;
 }
 
 /* .about {
@@ -49,4 +51,35 @@ h1 {
 .whiteText {
   color: white;
   font-size: 13px;
+}
+
+.skillsPic {
+  padding-top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/css/l.png");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.m {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.servicesH1 {
+  color: white;
 }
