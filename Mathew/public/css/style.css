@@ -20,7 +20,7 @@ h1 {
   display: flex;
   justify-content: center;
   width: 100%;
-  filter: brightness(75%);
+  filter: brightness(60%);
 }
 
 /* .text {
@@ -57,7 +57,7 @@ h3 {
   position: absolute;
   top: 0;
   width: 100%;
-  padding-top: 400px;
+  padding-top: 300px;
 }
 
 .intro-background-name {
@@ -139,7 +139,7 @@ h3 {
   height: 100%;
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.30);
 }
 
 .textOnImage {
@@ -208,6 +208,7 @@ h3 {
 
 .last-image {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 footer {
