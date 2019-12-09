@@ -7,8 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/animate.css">
+
+
 </head>
 
 <body>
@@ -23,10 +26,10 @@
           <div class="intro-background-name">
             <h1 class="intro-title">MATHEW</h1>
           </div>
-          <p class="intro-subtitle">I AM <strong>UX</strong> & <strong>UI</strong> DESIGNER</p>
+          <p class="intro-subtitle wow ">I AM <strong>UX</strong> & <strong>UI</strong> DESIGNER</p>
           <hr style="border: solid 3px white; width: 550px;">
           <p class="centered" style="color: white;">An Interactive Web Designer With The Passion For Creativity</p>
-          <button type="button" class="intro-btn">EXPLORE MY WORK</button>
+          <button type="button" class="intro-btn" onclick="exploreFunction()">EXPLORE MY WORK</button>
 
         </div>
 
@@ -38,10 +41,10 @@
 
   <section id="about">
     <div class="container">
-      <h1 class="head1-bigger">ABOUT ME</h1>
+      <h1 class="head1-bigger ">ABOUT ME</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta aspernatur sequi iusto molestias distinctio porro ipsa dolorem aut, alias ducimus rerum sunt est eaque minus aperiam, unde nobis cupiditate dignissimos rem aut, alias
         ducimus rerum sunt est eaque minus aperiam, unde nobis cupiditate dignissimos.</p>
-      <button class="hireButton"> Hire me </button>
+      <button class="hireButton wow"> Hire me </button>
     </div>
     <div class="container">
       <div class="row">
@@ -192,7 +195,7 @@
 
 
 
-  <section id="services">
+  <section id="services" class="wow bounceInUp">
     <h1 class="head1-bigger" style="color: white;">SERVICES</h1>
     <div class="container">
       <img src="/css/watch.jpg" alt="" class="services-watch">
@@ -228,8 +231,13 @@
 
 
 
+  <script type="text/javascript" src="/js/animate.js">
 
-
+  </script>
+  <script src="/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/ulg/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
