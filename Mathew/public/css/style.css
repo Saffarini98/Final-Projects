@@ -68,6 +68,8 @@ h3 {
   font-size: 50px;
   text-align: center;
   color: white;
+  padding-top: 22px;
+  /* background-color: white; */
 }
 
 .intro-subtitle {
@@ -86,9 +88,6 @@ h3 {
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* .about {
-  background-color: black;
-} */
 .hireButton {
   display: inline-block;
   text-align: center;
@@ -161,11 +160,6 @@ h3 {
   background-color: orange;
 }
 
-/* .projects {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-} */
 .project-titles {
   padding-top: 20px;
   padding-left: 10px;
@@ -197,7 +191,7 @@ h3 {
   filter: brightness(65%);
 }
 
-.watch-image {
+.services-watch {
   display: flex;
   justify-content: center;
   text-align: center;
