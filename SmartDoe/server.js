@@ -2,7 +2,7 @@ const path = require("path");
 const sassMiddleware = require("node-sass-middleware");
 
 var express = require('express');
-var exphbs  = require('express-handlebars');
+var exphbs = require('express-handlebars');
 var app = express();
 
 

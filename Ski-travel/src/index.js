@@ -1,10 +1,5 @@
-import {
-  $
-} from "jquery";
+import animate from "./animate"
+import './global'
 
 
-alert("check");
-
-$(window).scroll(function(e) {
-  console.log(e);
-})
+animate("#second");
