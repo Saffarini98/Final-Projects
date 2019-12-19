@@ -245,10 +245,29 @@ div .services-titles {
   padding-top: 20px;
 }
 
-.last-image {
+.contact-image {
   max-width: 100%;
   border-radius: 10px;
+  filter: brightness(60%);
 }
+
+.contact-inner-layout {
+  top: 0;
+  color: black;
+}
+
+.contact-content {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 
 footer {
   text-align: center;
