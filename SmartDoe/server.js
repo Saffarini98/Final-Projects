@@ -9,16 +9,15 @@ var app = express();
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
   // res.sendfile('index.html');
   res.render('home');
 });
 
-app.get('/about', function(req, res) {
+app.get('/about', function (req, res) {
   res.render('about');
 });
 
-// app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(
   sassMiddleware({
@@ -32,4 +31,4 @@ app.use(
 );
 
 app.use(express.static("public"));
-app.listen(3000);
+app.listen(4000);

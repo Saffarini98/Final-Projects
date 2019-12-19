@@ -17,11 +17,11 @@
   color: #EB6762;
 }
 
-#navbar .logo img{
+#navbar .logo img {
   height: 25px;
 }
 
-.middlenav a{
+.middlenav a {
   margin: 20px;
   color: black;
   margin-top: 20px;
@@ -35,28 +35,49 @@
   z-index: 2;
 }
 
+// nav #dot-nav {
+//   position: fixed;
+//   right: 20px;
+//   top: 20px;
+// }
+
+// nav#dot-nav a {
+//   border: 1px solid #121212;
+//   border-radius: 50%;
+//   width: 8px;
+//   height: 8px;
+//   display: block;
+//   margin: 10px;
+// }
+
+// nav#dot-nav a.active,
+// nav#dot-nav a:first-child {
+//   background: #121212;
+// }
 
 
 /* ALL SECTIONS */
 div h1 {
   font-size: 4.0rem;
-font-weight: bold;
+  font-weight: bold;
   font-family: 'Staatliches', cursive;
 
 }
-span{
+
+span {
   color: white;
 }
-.raspberry{
+
+.raspberry {
   color: #EB6762;
 }
 
-#second{
+#second {
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-button{
+button {
   background-color: black;
   color: white;
   width: 240px;
@@ -65,7 +86,7 @@ button{
 }
 
 
-#third{
+#third {
   font-family: "Sans-serif", Arial;
   padding: 150px;
   background-color: #EB6762;
@@ -74,10 +95,10 @@ button{
 #fourth {
   padding-top: 100px;
   padding-bottom: 200px;
-  background-color: #F8F8F8	;
+  background-color: #F8F8F8;
 }
 
-.ourTeam{
+.ourTeam {
   display: flex;
   justify-content: center;
 }
@@ -95,7 +116,7 @@ button{
 }
 
 
-#fifth{
+#fifth {
   margin-top: 200px;
   margin-bottom: 200px;
 
@@ -103,7 +124,7 @@ button{
 }
 
 
-ul{
+ul {
   text-align: right;
   list-style-type: none;
   border-right: 6px solid yellow;
@@ -112,7 +133,7 @@ ul{
   font-family: 'Staatliches', cursive;
 }
 
-ul li{
+ul li {
   padding: 10px;
 }
 
