@@ -1,0 +1,84 @@
+img {
+    position: relative;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    /* font-family: 'Sulphur Point', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  font-family: 'Maven Pro', sans-serif; */
+}
+
+strong {
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+.absolute-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 300px;
+}
+
+.image-cover {
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.title-content {
+    padding-left: 110px;
+}
+
+.title-image {
+    position: absolute;
+    height: 110px;
+}
+
+.title-padding {
+    padding-left: 40px;
+}
+
+.animated-opacity {
+    opacity: 0;
+    transition: all 3.5s;
+}
+
+.animated .animated-opacity {
+    opacity: 1;
+}
+
+.animated-left {
+    transform: translateX(1000px);
+    transition: all 2.5s;
+}
+
+.animated .animated-left {
+    transform: translateX(0);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    background-color: #212429;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    padding-top: 35px;
+}
