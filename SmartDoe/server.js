@@ -18,17 +18,26 @@ app.get('/about', function (req, res) {
   res.render('about');
 });
 
+app.get('/contact', function (req, res) {
+  res.render('contact');
+});
+
+app.get('/partners', function (req, res) {
+  res.render('partners');
+});
+
+app.get('/portfolio', function (req, res) {
+  res.render('portfolio');
+});
 
 app.use(
   sassMiddleware({
-    /* Options */
     src: path.join(__dirname, "scss"),
     dest: path.join(__dirname, "public/css/"),
-    // debug: true,
     outputStyle: "compressed",
     prefix: "/css"
   })
 );
 
 app.use(express.static("public"));
-app.listen(4000);
+app.listen(3000);

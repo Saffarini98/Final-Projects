@@ -1,25 +1,32 @@
+// SIDE NAV-BAR
+$(".dot-nav--item").on("click", function () {
+  ($this = $(this)), ($siblings = $this.siblings());
+  $this.addClass("is-active");
+  $siblings.removeClass("is-active");
+});
 
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("#navbar a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
+// SMOOTH SCROLLING
+$(document).ready(function () {
+  $(".dot-nav--item a").on("click", function (event) {
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
-
-      // Store hash
       var hash = this.hash;
+      $("html, body").animate({
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function () {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
+});
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
+// CHANGE COLOR OF SIDE-NAV WHEN SCROLLED
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".dot-nav--item");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
