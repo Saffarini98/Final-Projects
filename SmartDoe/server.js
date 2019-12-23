@@ -1,6 +1,7 @@
 const path = require("path");
 const sassMiddleware = require("node-sass-middleware");
 
+
 var express = require('express');
 var exphbs = require('express-handlebars');
 var app = express();
@@ -19,7 +20,9 @@ app.get('/about', function (req, res) {
 });
 
 app.get('/contact', function (req, res) {
-  res.render('contact');
+  res.render('contact', {
+    layout: 'additional'
+  });
 });
 
 app.get('/partners', function (req, res) {
@@ -38,6 +41,7 @@ app.use(
     prefix: "/css"
   })
 );
+
 
 app.use(express.static("public"));
 app.listen(3000);
