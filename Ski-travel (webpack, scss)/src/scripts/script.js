@@ -3,4 +3,4 @@
 import animate from "./animate";
 // import "bootstrap";
 
-// animate("#second");
+animate("#second");

@@ -93,9 +93,9 @@ module.exports = {
       defaultAttribute: 'defer'
     })
   ],
-  externals: {
-    $: 'jquery',
-    jquery: 'jQuery',
-    'window.$': 'jquery'
-  }
+  // externals: {
+  //   $: 'jquery',
+  //   jquery: 'jQuery',
+  //   'window.$': 'jquery'
+  // }
 };
